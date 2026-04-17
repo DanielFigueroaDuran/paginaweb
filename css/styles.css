@@ -48,6 +48,10 @@ body {
       margin-right: 5rem;
 }
 
+.nav__links:hover {
+      cursor: pointer;
+}
+
 a {
       color: var(--color-white);
       font-weight: bold;
@@ -55,10 +59,13 @@ a {
 
 /* -------------------------------MAIN------------------------------ */
 
-.container {
+.main__container {
+      display: flex;
+      align-items: center;
       width: 90%;
       max-width: 1200px;
       margin: 0 auto;
       overflow: hidden;
       border: 1px solid;
+      height: calc(100vh - var(--height-vav));
 }
