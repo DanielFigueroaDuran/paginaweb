@@ -44,13 +44,13 @@ body {
 .nav__links {
       display: flex;
       gap: 3rem;
-      border: 1px solid;
       padding: 0.5rem;
       margin-right: 5rem;
 }
 
 a {
       color: var(--color-white);
+      font-weight: bold;
 }
 
 /* -------------------------------MAIN------------------------------ */
