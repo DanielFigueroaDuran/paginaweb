@@ -58,14 +58,57 @@ a {
 }
 
 /* -------------------------------MAIN------------------------------ */
-
-.main__container {
-      display: flex;
-      align-items: center;
+.container {
       width: 90%;
       max-width: 1200px;
       margin: 0 auto;
       overflow: hidden;
-      border: 1px solid;
+}
+
+/* img {
+      width: 400px;
+      height: 400px;
+} */
+
+.main__container {
+      display: flex;
       height: calc(100vh - var(--height-vav));
+      align-items: center;
+      /* max-width: 1200px;
+      margin: 0 auto;
+      overflow: hidden;
+      border: 1px solid;
+      min-height: 600px; */
+}
+
+.main__texts {
+      flex: 1;
+}
+
+.main__picture {
+      flex: 1;
+}
+
+.main__img {
+      width: 100%;
+      max-width: 450px;
+      display: block;
+      margin: 0 auto;
+}
+
+.main__title {
+      font-size: 3rem;
+}
+
+.main__paragraph {
+      font-size: 1.5rem;
+      font-weight: 300;
+}
+
+.cta {
+      background: var(--background-blue);
+      display: inline-block;
+      padding: 15px 30px;
+      margin-top: 1.5em;
+      border-radius: 6px;
 }
